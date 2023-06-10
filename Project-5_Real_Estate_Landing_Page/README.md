@@ -2,4 +2,4 @@
 
 ## Screenshot
 
-![Project-3](./Real_Estate_Desktop.png)
+![Project-3](./Screenshot_Real_Estate.png)
