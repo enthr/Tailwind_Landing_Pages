@@ -5,9 +5,59 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Logo - Gaming</title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="font-['Roboto'] w-full">
+        <!-- Header -->
+        <header style="background-image: url(./assets/Photos/futuristic-bg.png)"
+            class="bg-cover bg-no-repeat bg-center">
+            <!-- Navbar -->
+            <nav class="py-8 lg:py-6">
+                <!-- Container -->
+                <div class="container mx-auto">
+                    <div class="flex flex-col gap-8 justify-between items-center text-[#FFFFFF] lg:flex-row lg:gap-0">
+                        <div class="flex items-center"><img src="./assets/Icons/Logo.svg" alt="Logo"></div>
+                        <div class="flex flex-col items-center gap-8 lg:flex-row">
+                            <a href="#">Home</a>
+                            <a href="#">Categories</a>
+                            <a href="#">How it Work ?</a>
+                            <a href="#">Pricing</a>
+                        </div>
+                        <div class="flex flex-col items-center gap-8 lg:flex-row">
+                            <a href="#">Sign In</a>
+                            <a href="#" class="bg-[#F9694D] py-2 px-6 font-medium">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Hero Section -->
+            <section class="text-[#FFFFFF] py-8 lg:py-28">
+                <!-- Container -->
+                <div class="container mx-auto">
+                    <div class="flex flex-col justify-between items-center lg:flex-row">
+                        <div class="flex flex-col lg:w-[40%]">
+                            <h1 class="font-bold text-[3rem]">Play Game Everytime Always Be Winner And Strong.</h1>
+                            <p class="text-[#B5B1B1] py-8">Improve your gaming skills by playing games that are
+                                currently popular so that you don't go out of style improve skills</p>
+                            <div class="flex flex-row gap-6">
+                                <a href="#" class="bg-[#F9694D] py-3 px-8">Get Started</a>
+                                <a href="#" class="border-2 py-3 px-8">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="flex flex-col items-center lg:w-[40%]">
+                            <div class="my-32"><img src="./assets/Icons/playButton.svg" alt="Play"></div>
+                            <h2 class="flex flex-row justify-between"><img src="./assets/Icons/dash.svg" alt="Dash"
+                                    class="self-start w-[20%]"><span class="text-[2rem] mx-4 w-[50%]">The King Of
+                                    Terania And Last Seasion XXIV</span><img src="./assets//Icons/rightArrow.svg"
+                                    alt="Right Arrow" class="self-end w-[20%]"></h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
     </body>
 </html>
