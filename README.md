@@ -1,2 +1,4 @@
-# Tailwind_Landing_Pages
+# Tailwind Landing Pages Collection
+
+
 Collection of Tailwind Landing Page Projects
