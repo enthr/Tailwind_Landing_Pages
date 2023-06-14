@@ -2,4 +2,4 @@
 
 ## Screenshot
 
-![Project-3](./Gaming_Landing_Page.png)
+![Project-4](./Gaming_Landing_Page.png)
