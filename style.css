@@ -1,0 +1,88 @@
+/* Global */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 5rem auto;
+}
+
+/* Header */
+.head-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+/* Project Section */
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem 5rem;    
+}
+
+.project-img img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.project-links {
+    margin: 1rem 0;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-links a {
+    color: #FFFFFF;
+    margin: 0 1rem;
+    padding: 0.5rem 2rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    color: #000000;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    transition: all 0.1s ease-in;
+    transform: scale(1.1);
+}
+
+.line {
+    border: 1px solid #FFFFFF;
+    padding: 0.5rem 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .head-title {
+        font-size: 2rem;
+    }
+    .project-container {
+        grid-template-columns: repeat(2, 1fr);
+    }    
+}
+
+@media screen and (max-width: 750px) {
+    .head-title {
+        font-size: 1.5rem;
+    }
+    .project-container {
+        grid-template-columns: 1fr;
+    }    
+}
